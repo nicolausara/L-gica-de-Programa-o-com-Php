@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="Pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form action="ss.php" method="post">
+        <label for="n1">Insira um número</label>
+        <input type="text" name="n1" accept="number">
+        <br><br>
+        <label for="n2">Insira um número</label>
+        <input type="text" name="n2" accept="number">
+        <br>
+        <br>
+        <select name="operacao">
+            <option value="vazio"></option>
+            <option value="ad">Adição</option>
+            <option value="sub">Subtração</option>
+            <option value="mul">Multiplicação</option>
+            <option value="div">Divisão</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
